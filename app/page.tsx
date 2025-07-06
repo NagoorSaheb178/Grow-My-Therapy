@@ -319,7 +319,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-16 items-center">
             {/* Image + Name/Title for mobile */}
             <div className="flex flex-col items-center md:hidden mb-10">
-              <div className="w-[370px] h-[480px] overflow-hidden bg-gray-200 border border-gray-200 shadow-md mx-auto">
+              <div className="w-full max-w-xs aspect-[3/4] md:w-[370px] md:h-[480px] overflow-hidden bg-gray-200 border border-gray-200 shadow-md mx-auto">
                 <img 
                   src="https://img.freepik.com/free-photo/portrait-young-businesswoman-holding-eyeglasses-hand-against-gray-backdrop_23-2148029483.jpg"
                   alt="Dr. Serena Blake"
